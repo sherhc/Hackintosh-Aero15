@@ -28,9 +28,7 @@ NVIDIA GTX 1060(disabled by SSDT-DDGPU)
 
 - Ethernet(OK): works by RealtekRTL8111.kext
 
-- Battery(OK): sometimes delay when boot,patched by [SSDT-BATT](https://blog.neroxps.cn/2017/02/25/Hotpatch/)
-
-- Fan RPM(OK): patched by SSDT-FANS.aml
+- Battery(OK): patched by [SSDT-BATT](https://blog.neroxps.cn/2017/02/25/Hotpatch/)
 
 - Backlight Control(OK): works by AppleBacklightInjector.kext,patched by SSDT-PNLF
 
@@ -41,3 +39,5 @@ NVIDIA GTX 1060(disabled by SSDT-DDGPU)
 - Bluetooth: Intel ,sometimes works
 
 - HDMI 2.0,mini DP 1.3: No tested
+
+- Fan RPM(OK): failed patch after replacing FakeSMC with VirtualSMC
